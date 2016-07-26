@@ -14,7 +14,6 @@
 					<td><label for="city"><spring:message
 								code="label.city" /></label></td>
 					<td><form:select path="city">
-							<form:option value="NONE" label="--- Select ---" />
 							<form:options items="${cityList}" />
 						</form:select></td>
 					<td colspan="2"><input type="submit" value="Submit" /></td>
